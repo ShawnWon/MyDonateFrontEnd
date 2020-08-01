@@ -1,0 +1,34 @@
+{
+  "info": [
+    {
+      "busstopid": 1,
+      "donatername": "Jon Snow",
+      "donateremail": "a@a.com",
+      "donateamount": 100
+    },
+    {
+      "busstopid": 2,
+      "donatername": "Jon Snow",
+      "donateremail": "a@a.com",
+      "donateamount": 50
+    },
+    {
+      "busstopid": 1,
+      "donatername": "Hulk",
+      "donateremail": "h@a.com",
+      "donateamount": 200
+    },
+    {
+      "busstopid": 2,
+      "donatername": "Hulk",
+      "donateremail": "h@a.com",
+      "donateamount": 150
+    },
+    {
+      "busstopid": 3,
+      "donatername": "Jon Snow",
+      "donateremail": "a@a.com",
+      "donateamount": 20
+    }
+  ]
+}

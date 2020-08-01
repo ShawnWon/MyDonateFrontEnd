@@ -1,0 +1,34 @@
+{
+  "info": [
+    {
+      "busstopid": 1,
+      "busstopname": "Opp Weyhill Cl",
+      "area": "East"
+    },
+    {
+      "busstopid": 2,
+      "busstopname": "Tanglin Trust Sch",
+      "area": "East"
+    },
+    {
+      "busstopid": 3,
+      "busstopname": "Bef Weyhill Cl",
+      "area": "South"
+    },
+    {
+      "busstopid": 4,
+      "busstopname": "Aft Whitchurch Rd",
+      "area": "North"
+    },
+    {
+      "busstopid": 5,
+      "busstopname": "Opp GEMPLUS",
+      "area": "West"
+    },
+    {
+      "busstopid": 6,
+      "busstopname": "Tempco Mfg",
+      "area": "Center"
+    }
+  ]
+}
