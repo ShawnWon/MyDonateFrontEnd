@@ -33,8 +33,8 @@ export default class Busstop {
 
     this.busstops = this.busstops.filter((item) => {
       return (
-        item.info.busstopname.indexOf(word) != -1 ||
-        item.info.area.indexOf(word) != -1
+        item.info.busstopname.toUpperCase().indexOf(word.toUpperCase()) != -1 ||
+        item.info.area.toUpperCase().indexOf(word.toUpperCase()) != -1
       );
     });
     if (word == "") {
