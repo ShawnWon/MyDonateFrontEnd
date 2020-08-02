@@ -15,6 +15,7 @@ export default class DonateForm extends React.Component {
     let addForm = ReactDOM.findDOMNode(this.refs.addForm);
     if (action == "ok") {
       this.props.addDonations(item);
+      this.setState({ showDialog: false });
       //This is for successfully donation
       let tips = ReactDOM.findDOMNode(this.refs.tips);
       tips.style.display = "block";
@@ -23,7 +24,7 @@ export default class DonateForm extends React.Component {
       }, 1000);
     } else {
       item.donateamount = 0;
-      this.props.addDonations(item);
+      this.setState({ showDialog: false });
     }
     addForm.reset();
     this.state.showDialog = false;
@@ -31,8 +32,6 @@ export default class DonateForm extends React.Component {
 
   handlerAddClick(evt) {
     evt.preventDefault();
-
-    this.setState({ showDialog: !this.state.showDialog });
 
     let item = {};
     let addForm = ReactDOM.findDOMNode(this.refs.addForm);
@@ -73,8 +72,8 @@ export default class DonateForm extends React.Component {
       item.donateamount = parseInt(item.donateamount);
     }
 
-    this.state.showDialog = true;
-    this.state.iteminfo = item;
+    this.setState({ showDialog: true });
+    this.setState({ iteminfo: item });
   }
 
   render() {
